@@ -25,7 +25,7 @@ export const links = [
     id: 'projects',
   },
   {
-    name: 'Experience',
+    name: 'Education',
     id: 'experience',
   },
   {
@@ -40,35 +40,25 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Trustsoft s.r.o.',
-    location: 'Prague, Czechia',
-    description:
-      'Front-end Developer. Providing services in the field of information technology services, including administration servers, cloud services, information systems and software development.',
-    icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Oct 2024 - Present',
+    title: 'MCA.',
+    location: ' St. Joseph’s College of Engineering and Technology, Palai, Kerala India',
+    
+    date: 'AUG 2023 - MAY 2025',
   },
   {
-    title: 'Granton s.r.o.',
-    location: 'Prague, Czechia',
-    description:
-      'Front-end Developer. Delivering flawless UI/UX, Frontend Workflow, Architecture & App Development.',
-    icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Oct 2024 - Present',
+    title: 'BCA',
+    location: 'Baselios Poulose II Catholicos College, Piravom, Kerala India ',
+    date: 'JUN 2019 - MAR 2022',
   },
   {
-    title: 'WhirrCrew s.r.o.',
-    location: 'Prague, Czechia',
-    description:
-      'Front-end Developer. Responsible for implemntation of accessible and interactive interface. Working on various projects with AI integration.',
-    icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Jun 2024 - Present',
+    title: 'HIGHER SECONDRY',
+    location: ' SMV NSS Higher Secondary School, Kallara, Kerala India',
+    date: 'Jun 2017- MAR 2019',
   },
   {
-    title: 'NAU',
-    location: 'Kyiv, Ukraine',
-    description: `Bachelor's degree in Cybersecurity. The faculty of Cyber Security and Software Engineering.`,
-    icon: React.createElement(BookIcon),
-    date: 'Sep 2022 - Jun 2024',
+    title: 'Xth',
+    location: ' De Paul Public School Nazareth Hill, Kottayam, Kerala India',
+    date: 'Jun 2016 - MAR 2017',
   },
 ] as const;
 
@@ -148,24 +138,24 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  ['JavaScript', '/svgs/javascript-js.svg'],
+  ['Java Script', '/svgs/javascript-js.svg'],
   ['TypeScript', '/svgs/typescript-icon.svg'],
   ['React', '/svgs/react.svg'],
   ['Next.js', '/svgs/nextjs.svg'],
   ['Node.js', '/svgs/node-js.svg'],
   ['Express', '/svgs/express-original.svg'],
   ['Tailwind', '/svgs/tailwind-css.svg'],
-  ['Framer', '/svgs/framer.svg'],
-  ['Shadcn', '/svgs/shadcnui.svg'],
-  ['Headless', '/svgs/brand-headlessui.svg'],
+  ['Java', '/svgs/Java.svg'],
+  ['Python ', '/svgs/python.svg'],
+  ['C#', '/svgs/C_Sharp.svg'],
   ['Redux', '/svgs/redux-original.svg'],
   ['Prisma', '/svgs/file-type-light-prisma.svg'],
   ['MongoDB', '/svgs/mongodb-original.svg'],
   ['PostgreSQL', '/svgs/postgresql.svg'],
   ['MySQL', '/svgs/MySQL.svg'],
-  ['Tanstack Query', '/svgs/react-query-seeklogo.svg'],
-  ['Tanstack Table', '/svgs/db-table-svgrepo-com.svg'],
-  ['Cloudinary', '/svgs/cloudinary.svg'],
+  ['Tansor Flow ', '/svgs/Tensorflow.svg'],
+  ['Hugging Face ', '/svgs/Hf.svg'],
+  ['Pytorch', '/svgs/pytorch.svg'],
   ['Golang', '/svgs/golang.svg'],
   ['Docker', '/svgs/Docker.svg'],
   ['Clerk', '/svgs/clerk.svg'],
